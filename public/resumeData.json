@@ -1,17 +1,17 @@
 {
   "main": {
-    "name": "Tim Baker",
-    "occupation": "(Your Occupation Here)",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name": "Deepak Singh",
+    "occupation": "McGill Computer Science student",
+    "description": "Welcome to my personal website!",
     "image": "profilepic.jpg",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "deepakanhviet@gmail.com",
+    "phone": "438-391-7446",
     "address": {
       "street": "(Your Street)",
-      "city": "(Your City)",
-      "state": "(Your State)",
+      "city": "Montreal",
+      "state": "Quebec",
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
@@ -48,31 +48,48 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
+        "school": "McGill University",
+        "degree": "Bachelor of Arts",
+        "graduated": "August 2018 - December 2021",
+        "gpa": "3.96 / 4.00",
+        "awards": "Dean's Honour List",
         "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Intact Financial Corporation",
+        "title": "Software Engineering Intern",
+        "years": "May 2021 - August 2021",
+        "description": [
+          "Built an automated machine learning training stage for NLP projects, improving iterative model training by 30%.",
+          "Developed a Gitlab pipeline allowing users to modify their NLP project dataset with pre-labeled data, used by 2 data science teams.",
+          "Designed and implemented an automatic recovery system that recovers version-controlled datasets during failures.",
+          "Added 80% unit test code coverage to an internal application that centralizes the components of NLP pipelines."
+        ]
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Coveo Solutions",
+        "title": "Software Developer Intern",
+        "years": "May 2020 - August 2020",
+        "description": [
+          "Created an automatic OAuth secret rotation mechanism for a microservice, reducing the server load by 3 API calls per user input.",
+          "Wrote 12 end-to-end Selenium tests for a front-end product, preventing broken changes from being launched.",
+          "Built a Quickview component in Typescript that allows users to preview PDF, Excel, Word, and HTML documents."
+        ]
+      },
+      {
+        "company": "DeepEmploi",
+        "title": "Software Developer Intern",
+        "years": "May 2020 - August 2020",
+        "description": [
+          "Created a MySQL database and Flask server to manage the daily flow of client data, decreasing company account receivables by $40,000.",
+          "Built an application that uses handwriting recognition to extract the data of over 5000 physical employee worksheets.",
+          "Improved invoice validation efficiency by 50% by creating a React user interface for unpaid invoice data.",
+          "Deployed Python workflow automations to streamline employee dispatching, reducing manual work by 40%."
+        ]
       }
+
     ],
     "skills": [
       {

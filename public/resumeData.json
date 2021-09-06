@@ -125,34 +125,54 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
+        "title": "Colt Express",
         "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "image": "coltexpress.jpg",
+        "url": "https://github.com/Deepok101/ColtExpressExec/releases/tag/1.0",
+        "description": [
+          "(Server is offline)",
+          "Led a team of 5 developers to create the Colt Express board game on Mac and Windows with the Unity engine.", 
+          "Developed a RESTful API with Node.js and Express to manage the states of multiple concurrent games.", 
+          "Implemented a multiplayer feature that allows up to 6 players to play against each other from separate devices.",
+          "Leveraged a MongoDB database to store the progress of ongoing games, allowing users to save and load games."
+        ],
+        "stack": ["Java", "Javascript"]
       },
       {
-        "title": "Fury Fighting Gear",
+        "title": "CodeRunners",
         "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "image": "coderunners.png",
+        "url": "https://github.com/Deepok101/coderunners",
+        "description": [
+          "Created a RESTful API that allows users to execute and debug code.",
+          "Created a Python debugger with step-in, step-out and step-over functionalities.",
+          "Utilized Docker to containerize the execution and debugging of code."
+        ],
+        "stack": ["Golang", "Python", "Docker"]
       },
       {
-        "title": "Original Thai Food",
+        "title": "TruckersFifthWheel",
         "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "image": "TruckersFifthWheel.png",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io",
+        "description": [],
+        "stack": []
       },
       {
         "title": "Resume Website",
         "category": "A React based resume website template",
         "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
+        "url": "http://www.timbakerdev.com",
+        "description": [],
+        "stack": []
       },
       {
         "title": "Smirkspace",
         "category": "(MVP Only) A React and Meteor based chat University project.",
         "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "url": "http://www.smirkspace.com",
+        "description": [],
+        "stack": []
       }
     ]
   },

@@ -1024,3 +1024,19 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+/* Pill */
+.pill {
+   background-color: #418ace;
+   border: none;
+   color: #ececec;
+   padding: 0.5px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   margin-right: 10px;
+   margin-left: -1px;
+   margin-bottom: 10px;
+   border-radius: 100px;
+ }

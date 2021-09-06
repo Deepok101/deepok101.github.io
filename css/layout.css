@@ -203,7 +203,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #d1d1d1;
 }
 #about .profile-pic {
    position: relative;
@@ -277,7 +277,7 @@ ul#nav li.current a { color: #F06000; }
    margin-left: 5px;
 }
 #resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 16px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
 
@@ -422,16 +422,31 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 24px/32px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #292929;
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+.portfolio-content {
+   width: 40%  
+}
+
+#portfolio-wrapper .columns { 
+   margin-bottom: 36px; 
+}
+
+.content{
+   display: inline-block;
+}
+
+.content img {
+   float: left
+}
+
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
@@ -444,7 +459,7 @@ ul#nav li.current a { color: #F06000; }
 	transition: all 0.3s ease-in-out;
 }
 .portfolio-item .item-wrap a {
-   display: block;
+   display: inline-block;
    cursor: pointer;
 }
 

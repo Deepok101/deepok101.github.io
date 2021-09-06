@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
+import Typewriter from 'typewriter-effect';
 
 class Header extends Component {
   render() {
-
-    if(this.props.data){
+   
+   if(this.props.data){
       var name = this.props.data.name;
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
       var city= this.props.data.address.city;
+      var resumeDownload = this.props.data.resumedownload;
       var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
-    }
-
-    return (
+   }
+    
+   return (
       <header id="home">
 
       <nav id="nav-wrap">
@@ -26,21 +28,28 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
          </ul>
 
       </nav>
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3><span>{occupation}</span>.</h3>
-            <h3></h3>
+            <h1 className="responsive-headline">{name}</h1>
+            <h3>
+               <Typewriter options={{
+                    strings: [occupation, "Software Developer", "Tech Enthusiast"],
+                    autoStart: true,
+                    loop: true
+                }}
+            /></h3>
+            
             <hr />
             <ul className="social">
                {networks}
             </ul>
+            <a href={resumeDownload} className="button">View Resume</a>
          </div>
       </div>
 

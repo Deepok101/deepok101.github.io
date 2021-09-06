@@ -4,7 +4,9 @@
     "occupation": "McGill Computer Science student",
     "description": "Welcome to my personal website!",
     "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio2": "Hi! I am a fourth year Computer Science student studying at McGill University. I started programming at the age of 16 but never really saw its true potential until the age of 19. After a year of university in Finance, I saw technology as a tool that can positively impact our society which motivated me to change majors and go into Computer Science.",
+    "bio": "Hi! I am a fourth year Computer Science student studying at McGill University. I recently finished a summer internship at Intact Financial Corporation where I worked as a software engineering intern supporting the development of artificial intelligence tools. I believe software and technology can be used to do positive contributions towards our society and environment. This motivates me to continuously learn new things!",
+    "hobbies": "When I am not programming, you can find me bouldering or biking around Montreal!",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "deepakanhviet@gmail.com",
     "phone": "438-391-7446",
@@ -15,31 +17,16 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "DeepakSinghResumeMaster.pdf",
     "social": [
       {
-        "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/deepok101/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
-        "className": "fa fa-instagram"
-      },
-      {
         "name": "github",
-        "url": "http://github.com/tbakerx",
+        "url": "http://github.com/Deepok101",
         "className": "fa fa-github"
       }
     ]
@@ -50,10 +37,13 @@
       {
         "school": "McGill University",
         "degree": "Bachelor of Arts",
+        "major": "Computer Science",
         "graduated": "August 2018 - December 2021",
         "gpa": "3.96 / 4.00",
         "awards": "Dean's Honour List",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "relatedCoursework": "Data Structures and Algorithms, Database Systems, Machine Learning, Software Design",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc.",
+        "logo": "mcgilllogo.png"
       }
     ],
     "work": [
@@ -66,7 +56,8 @@
           "Developed a Gitlab pipeline allowing users to modify their NLP project dataset with pre-labeled data, used by 2 data science teams.",
           "Designed and implemented an automatic recovery system that recovers version-controlled datasets during failures.",
           "Added 80% unit test code coverage to an internal application that centralizes the components of NLP pipelines."
-        ]
+        ],
+        "logo": "intactlogo.png"
       },
       {
         "company": "Coveo Solutions",
@@ -76,7 +67,8 @@
           "Created an automatic OAuth secret rotation mechanism for a microservice, reducing the server load by 3 API calls per user input.",
           "Wrote 12 end-to-end Selenium tests for a front-end product, preventing broken changes from being launched.",
           "Built a Quickview component in Typescript that allows users to preview PDF, Excel, Word, and HTML documents."
-        ]
+        ],
+        "logo": "coveologo.png"
       },
       {
         "company": "DeepEmploi",
@@ -87,7 +79,8 @@
           "Built an application that uses handwriting recognition to extract the data of over 5000 physical employee worksheets.",
           "Improved invoice validation efficiency by 50% by creating a React user interface for unpaid invoice data.",
           "Deployed Python workflow automations to streamline employee dispatching, reducing manual work by 40%."
-        ]
+        ],
+        "logo": "deepemploilogo.png"
       }
 
     ],
@@ -139,40 +132,41 @@
         "stack": ["Java", "Javascript"]
       },
       {
-        "title": "CodeRunners",
+        "title": "Resume Match",
         "category": "(offline now) A fighting gear company I started",
-        "image": "coderunners.png",
-        "url": "https://github.com/Deepok101/coderunners",
+        "image": "ResumeMatch.png",
+        "url": "https://github.com/Deepok101/ResumeMatch",
         "description": [
-          "Created a RESTful API that allows users to execute and debug code.",
-          "Created a Python debugger with step-in, step-out and step-over functionalities.",
-          "Utilized Docker to containerize the execution and debugging of code."
+          "Collaborated with 4 developers to create a web application that matches resumes to active software job postings.",
+          "Built a Python web scraper that fetches job posting information from 2 sources.",
+          "Utilized a PostgreSQL database to store the data of 10000 job postings.",
+          "Developed an algorithm that scores a user’s resume to a job posting based on the job’s technical requirements."
         ],
         "stack": ["Golang", "Python", "Docker"]
+      },
+      {
+        "title": "Coderunners",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "coderunners.png",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io",
+        "description": [
+          "Created a social media web application allowing individuals in the transportation industry to connect.",
+          "Developed the following features: authentication, creating/liking posts, creating/liking comments, posting/applying jobs, and customizable profiles.",
+          "Leverated Socket.io to allow real time website updates."
+        ],
+        "stack": ["Javascript", "React", "MongoDB", "Socket.io"]
       },
       {
         "title": "TruckersFifthWheel",
         "category": "Website I built for a restaurant I like in Thailand",
         "image": "TruckersFifthWheel.png",
         "url": "http://www.timbakerdev.com/originalthaifood.github.io",
-        "description": [],
-        "stack": []
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com",
-        "description": [],
-        "stack": []
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com",
-        "description": [],
-        "stack": []
+        "description": [
+          "Created a social media web application allowing individuals in the transportation industry to connect.",
+          "Developed the following features: authentication, creating/liking posts, creating/liking comments, posting/applying jobs, and customizable profiles.",
+          "Leverated Socket.io to allow real time website updates."
+        ],
+        "stack": ["Javascript", "React", "MongoDB", "Socket.io"]
       }
     ]
   },

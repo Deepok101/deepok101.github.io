@@ -22,8 +22,6 @@ class Resume extends Component {
               <p>
                 Major: {education.major}
                 <br/>
-                Related Coursework: {education.relatedCoursework}
-                <br/>
                   GPA: {education.gpa}
                 <br/>
                   Awards: {education.awards}

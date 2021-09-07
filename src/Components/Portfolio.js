@@ -16,7 +16,7 @@ class Portfolio extends Component {
               <ul>
                 {project.description.map((desc) => <li>{desc}</li>)}
               </ul>
-              Tech Stack: {project.stack.map((tech) => <em style={{marginLeft: "1em"}}>{tech}</em>)}
+              Tech Stack: {project.stack.map((tech) => <div className="pill" style={{marginLeft: "1em"}}>{tech}</div>)}
             </div>
           </div>
         )

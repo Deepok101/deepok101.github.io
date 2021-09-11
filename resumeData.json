@@ -142,7 +142,7 @@
           "Utilized a PostgreSQL database to store the data of 10000 job postings.",
           "Developed an algorithm that scores a user’s resume to a job posting based on the job’s technical requirements."
         ],
-        "stack": ["Golang", "Python", "Docker"]
+        "stack": ["Python", "Flask", "PostgreSQL", "React", "Javascript"]
       },
       {
         "title": "Coderunners",
